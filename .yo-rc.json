@@ -1,0 +1,14 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "docker-compose",
+    "gatewayType": "SpringCloudGateway",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": ["gateway", "products"],
+    "clusteredDbApps": [],
+    "serviceDiscoveryType": "eureka",
+    "dockerRepositoryName": "fridgy",
+    "dockerPushCommand": "docker push",
+    "jwtSecretKey": "Nzc4NzJmMjIyZmE5NmFlMGFjODNiMjdiYzhmZjNkZmMyNDg5N2ViYzBiYjU3NzJlZWYxOWRjNDFiNGQ1M2FhY2NmYzlhM2YzNzIxMDFjNDdlMjFiZTgyMzcwYWZjMDk3MGZmNw=="
+  }
+}
